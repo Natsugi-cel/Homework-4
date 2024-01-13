@@ -1,17 +1,28 @@
-print("Hello world")
-################ 1 ####################
-
-string = input("Enter a string: ")
-
-letter_count = 0
-digit_count = 0
-for char in string:
-   if char.isalpha():
-       letter_count += 1
-   elif char.isdigit():
-       digit_count += 1
-
-print("Number of letters:", letter_count)
-print("Number of digits:", digit_count)
+# print("Hello world")
+# ################ 1 ####################
+#
+# string = input("Введіть рядок: ")
+#
+# letter_count = 0
+# digit_count = 0
+# for char in string:
+#    if char.isalpha():
+#        letter_count += 1
+#    elif char.isdigit():
+#        digit_count += 1
+#
+# print("Кількість букв:", letter_count)
+# print("Кількість цифр:", digit_count)
 
 ############## 2 ################
+
+num1 = list(map(int,input("Введіть ряд чисел через пробіл: ").split()))
+num2 = int(input("Введіть число для пошуку: "))
+
+num3 = 0
+for i in num1:
+   if i==num2:
+       num3+=1
+print(f"Число {num2} зустрічається {num3} разів")
+
+################# 3 ###################
