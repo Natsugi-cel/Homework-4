@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22527990-a3cd-4529-bee6-84476e9c32df" name="Changes" comment="homework 4 begin, second">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="22527990-a3cd-4529-bee6-84476e9c32df" name="Changes" comment="homework 4 begin, third">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705175794007</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="homework 4 begin, third">
+      <option name="closed" value="true" />
+      <created>1705176883573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705176883573</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +118,7 @@
     <MESSAGE value="homework 4 begin" />
     <MESSAGE value="homework 4 begin, first" />
     <MESSAGE value="homework 4 begin, second" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 4 begin, second" />
+    <MESSAGE value="homework 4 begin, third" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 4 begin, third" />
   </component>
 </project>
