@@ -27,17 +27,27 @@
 
 ################# 3 ###################
 
-string = input("Введіть рядок: ")
-search_word = input("Введіть слово для пошуку: ")
-replace_word = input("Введіть слово, щоб замінити його на: ")
-words = string.split()
-modified_words = []
-for word in words:
-   if word == search_word:
-       modified_words.append(replace_word)
-   else:
-       modified_words.append(word)
-modified_string = " ".join(modified_words)
-print(modified_string)
+# string = input("Введіть рядок: ")
+# search_word = input("Введіть слово для пошуку: ")
+# replace_word = input("Введіть слово, щоб замінити його на: ")
+# words = string.split()
+# modified_words = []
+# for word in words:
+#    if word == search_word:
+#        modified_words.append(replace_word)
+#    else:
+#        modified_words.append(word)
+# modified_string = " ".join(modified_words)
+# print(modified_string)
 
 ################### 4 #################
+
+sentence = "Life is a pool then you dive"
+print(sentence[2])
+print(sentence[-2])
+print(sentence[:5])
+print(sentence[::2])
+print(sentence[1::2])
+print(sentence[::-1])
+print(sentence[::-2])
+print(len(sentence))
