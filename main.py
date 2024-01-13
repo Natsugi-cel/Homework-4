@@ -13,3 +13,4 @@ for char in string:
 
 print("Number of letters:", letter_count)
 print("Number of digits:", digit_count)
+
